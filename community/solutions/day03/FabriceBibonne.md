@@ -1,16 +1,25 @@
 # Advent of Craft 2025
 
-## Solution DAY 02
+## Solution DAY 03
 
 - Contributor Discord Name : fbibonne
 - Stack : **Change to Python (PyCharm)** instead of usually java
-- Fork : https://github.com/FBibonne/advent-2025/pull/2
+- Fork : https://github.com/FBibonne/advent-2025/pull/3
 
 ## More feedback to share (optional)
 
-- I know very few things in Python language so it was a real challenge for me
-- Installation was easy because Python is already installed in my OpenSuse OS and I only had to ask for PyCharm in JetBrains ToolBox which made all the work for me !
-- I tried to use IA (Gemini) but it was very slow (bad internet connection maybe ?) and I was faster browsing the answers for my python questions on internet
-- The solution of the exercise was quite simple and the fact that most of code was already written was a great help
-- Smart autocompletion (complete the full line) of PyCharm (with a local AI agent) was a great help because I was not confident with Python syntax
-- I was so happy to write working code that I did not refactor to make it more readable (for example meaningfull names)
+- Phase 1 : extrem SOLID : apply SOLID principles systematicaly :
+  - complexity increased ! :
+    - from 3 classes to 10 classes : interfaces obsession !!!
+    - complexity of Santa decreased from 14 to 8 but I added the ChildRepositoryImpl class with complexity 6
+    - It is too much abstract because I added interfaces in front of all concrete classes : it is a nonsense !
+    - Do not forgot KISS principles
+    - I note that I want to keep a method in Santa class which represents business rules : it associates Behaviors with "something" which is able to choose a toy in Wishlist
+- Phase 2 : peace with SOLID : simplification !
+  - from 10 classes to 7 classes
+  - Santa complexity is at 8. ChildrenRepository is at 4
+  - My classes are closer to business concepts
+- I learnt :
+  - applying systematically SOLID leads to introduce too much abtraction (notion which does not exist in business)
+  - it is more efficient to drive development with business notions (try to express business logic in the code)
+  - SOLID (clean code, objects calisthenics, ...) principles are guidelines to improve locally code but are not designed to globally drive a refactor
