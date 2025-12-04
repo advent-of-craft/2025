@@ -3,7 +3,7 @@
 ## Solution DAY 03
 
 - Contributor Discord Name : fbibonne
-- Stack : **Change to Python (PyCharm)** instead of usually java
+- Stack :  java (intellij)
 - Fork : https://github.com/FBibonne/advent-2025/pull/3
 
 ## More feedback to share (optional)
