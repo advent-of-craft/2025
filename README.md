@@ -150,6 +150,7 @@ After each day you participate, jot down:
 - [Day 12 - Human password policy.](challenges/day12/README.md)
 - [Day 13 - Keyboard-first refactoring.](challenges/day13/README.md)
 - [Day 14 - Your tests tell a story](challenges/day14/README.md)
+- [Day 15 - A paradigm shift.](challenges/day15/README.md)
 
 ## Who are we?
 
