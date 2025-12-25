@@ -167,6 +167,7 @@ After each day you participate, jot down:
 - [Day 22 - Fixing the Timeloop Processor.](challenges/day22/README.md)
 - [Day 23 - Stabilizing the Karma.](challenges/day23/README.md)
 - [Day 24 - The ultimate timebrain bug.](challenges/day24/README.md)
+- [Day 25 - Share your journey](challenges/day25/README.md)
 
 ## Who are we?
 
